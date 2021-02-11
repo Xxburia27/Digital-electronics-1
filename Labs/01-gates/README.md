@@ -48,7 +48,7 @@ end architecture dataflow;
 | 1 | 1 | 0 | 0 |
 | 1 | 1 | 1 | 0 |
 
-![NOR](./images/f_nor.png)
+![NOR](./images/f_nor.PNG)
 
 ## Funkce pomocí NAND
 
