@@ -4,7 +4,7 @@
 
 [EDA palyground](https://www.edaplayground.com/x/8LrP)
 
-## Funkce v základnímu úpravu
+## Funkce v základním stavu
 
 ```vhdl
 architecture dataflow of gates is
@@ -80,7 +80,7 @@ end architecture dataflow;
 
 [EDA palyground](https://www.edaplayground.com/x/WSYj)
 
-## VHDL kod:
+## VHDL kód:
 
 ```vhdl
 architecture dataflow of gates is
@@ -93,7 +93,7 @@ begin
 end architecture dataflow;
 ```
 
-Z obrázku vidíme, funkce f1 a F2 rovnají, taktéž funkce f3 a f4.
+Z obrázku vidíme, že funkce f1 a F2 rovnají, taktéž funkce f3 a f4.
 
 ![NOR](./images/distributive.PNG)
 
