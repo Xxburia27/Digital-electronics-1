@@ -24,7 +24,7 @@ end architecture dataflow;
 | 1 | 1 | 0 | 0 |
 | 1 | 1 | 1 | 0 |
 
-![Základní funkce](/images/f_o.png)
+![Základní funkce](./images/f_o.png)
 
 ## Funkce pomocí NOR
 
@@ -48,7 +48,7 @@ end architecture dataflow;
 | 1 | 1 | 0 | 0 |
 | 1 | 1 | 1 | 0 |
 
-![NOR](/images/f_nor.png)
+![NOR](./images/f_nor.png)
 
 ## Funkce pomocí NAND
 
@@ -72,4 +72,4 @@ end architecture dataflow;
 | 1 | 1 | 0 | 0 |
 | 1 | 1 | 1 | 0 |
 
-![NAND](/images/f_nand.png)
+![NAND](./images/f_nand.png)
