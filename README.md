@@ -1,9 +1,7 @@
 # Digital-electronics-1
 
-## nadpis druhe urovne
+## Kurz BPC-DE1 počítačová cvičení
 
-1.  Item 1
-1.  Item 2
-    1. Item 2a
+Odkaz na EDA playground:
 
-http://seznam.cz
+[EDA palyground](https://www.edaplayground.com/playgrounds/user/242575)
