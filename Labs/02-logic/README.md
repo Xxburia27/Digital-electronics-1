@@ -1,4 +1,4 @@
-# cvičení 2. Combinational logic.
+# Cvičení 2. Combinational logic.
 
 ## Odkaz na EDA playground:
 
@@ -22,5 +22,9 @@
 | 13 | 1 1 | 0 1 | 1 | 0 | 0 |
 | 14 | 1 1 | 1 0 | 1 | 0 | 0 |
 | 15 | 1 1 | 1 1 | 0 | 1 | 0 |
+
+equals_SoP = m0 + m5 + m10 + m15 = (!b1*!b0*!a1*!a0) + (!b1*b0*!a1*a0) + (b1*!b0*a1*!a0) + (b1*b0*a1*a0)
+
+less_PoS = M0 + M4 + M5 + M8 + M9 + M10 + M12 + M13 + M14 + M15 = (b1 + b0 + a1 + a0)*(b1 + !b0 + a1 + a0)*(b1 + !b0 + a1 + !a0)*(!b1 + b0 + a1 + a0)*(!b1 + b0 + a1 + !a0)*(!b1 + b0 + !a1 + a0)*(!b1 + !b0 + a1 + a0)*(!b1 + !b0 + a1 + !a0)(!b1 + !b0 + !a1 + a0)*(!b1 + !b0 + !a1 + !a0)
 
 
