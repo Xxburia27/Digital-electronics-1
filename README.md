@@ -4,4 +4,4 @@
 
 Odkaz na EDA playground:
 
-[EDA palyground](https://www.edaplayground.com/playgrounds/user/242575)
+[EDA playground](https://www.edaplayground.com/playgrounds/user/242575)

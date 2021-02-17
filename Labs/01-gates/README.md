@@ -2,7 +2,7 @@
 
 ## Odkaz na EDA playground:
 
-[EDA palyground](https://www.edaplayground.com/x/8LrP)
+[EDA playground](https://www.edaplayground.com/x/8LrP)
 
 ## Funkce v základním stavu
 
@@ -78,7 +78,7 @@ end architecture dataflow;
 
 ## Odkaz na EDA playground:
 
-[EDA palyground](https://www.edaplayground.com/x/WSYj)
+[EDA playground](https://www.edaplayground.com/x/WSYj)
 
 ## VHDL kód:
 
