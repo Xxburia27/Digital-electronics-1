@@ -30,7 +30,7 @@ less_PoS = M0 . M4 . M5 . M8 . M9 . M10 . M12 . M13 . M14 . M15 =</br>
 
 ## Karnaughovy mapy
 
-![Mapa] (./images/default.png)</br>
+![Mapa] (/images/default.png)</br>
 ## Minimalizace pomocí K-map
-![Mapa] (./images/Karnaugh.png)</br>
+![Mapa] (/images/Karnaugh.png)</br>
 
