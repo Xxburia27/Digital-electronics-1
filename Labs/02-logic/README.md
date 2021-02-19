@@ -38,7 +38,13 @@ less_PoS = M0 . M4 . M5 . M8 . M9 . M10 . M12 . M13 . M14 . M15 =</br>
 
 ![Mapa2](./images/mapa2.png)</br>
 
-## Realizace 4-bit. pomocí VHDL
+# Realizace 4-bit. pomocí VHDL
+
+## Chyba v EDU playground
+
+Chyba byla vyvolána na posledním řádku realizace, vyýsledek je na obrázku níže.
+
+![Chyba](./images/chyba.png)
 
 ## VHDL kód testbench:
 
@@ -94,6 +100,7 @@ less_PoS = M0 . M4 . M5 . M8 . M9 . M10 . M12 . M13 . M14 . M15 =</br>
         s_b <= "1111"; s_a <= "0000"; wait for 100 ns;
 		assert ((s_B_greater_A = '0') and (s_B_equals_A = '1') and (s_B_less_A = '0'))
 		report "Test failed for input combination: 1111, 0000" severity error;
+		-- VYVOLANÁ CHYBA
 
         report "Stimulus process finished" severity note;
         wait;
