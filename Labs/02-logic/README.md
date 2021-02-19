@@ -36,4 +36,47 @@ less_PoS = M0 . M4 . M5 . M8 . M9 . M10 . M12 . M13 . M14 . M15 =</br>
 
 ![Mapa2](./images/mapa2.png)</br>
 
+## Realizace 4-bit. pomocí VHDL
 
+```vhdl
+
+       	s_b <= "0000"; s_a <= "0000"; wait for 100 ns;
+		assert ((s_B_greater_A = '0') and (s_B_equals_A = '1') and (s_B_less_A = '0'))
+		report "Test failed for input combination: 0000, 0000" severity error;
+        
+        s_b <= "0001"; s_a <= "0000"; wait for 100 ns;
+		assert ((s_B_greater_A = '1') and (s_B_equals_A = '0') and (s_B_less_A = '0'))
+		report "Test failed for input combination: 0000, 0000" severity error;
+        
+        s_b <= "0000"; s_a <= "0001"; wait for 100 ns;
+		assert ((s_B_greater_A = '0') and (s_B_equals_A = '0') and (s_B_less_A = '1'))
+		report "Test failed for input combination: 0000, 0000" severity error;
+        
+               	s_b <= "0001"; s_a <= "0001"; wait for 100 ns;
+		assert ((s_B_greater_A = '0') and (s_B_equals_A = '1') and (s_B_less_A = '0'))
+		report "Test failed for input combination: 0000, 0000" severity error;
+        
+        s_b <= "0011"; s_a <= "0001"; wait for 100 ns;
+		assert ((s_B_greater_A = '1') and (s_B_equals_A = '0') and (s_B_less_A = '0'))
+		report "Test failed for input combination: 0000, 0000" severity error;
+        
+        s_b <= "0001"; s_a <= "0011"; wait for 100 ns;
+		assert ((s_B_greater_A = '0') and (s_B_equals_A = '0') and (s_B_less_A = '1'))
+		report "Test failed for input combination: 0000, 0000" severity error;
+        
+               	s_b <= "0011"; s_a <= "0011"; wait for 100 ns;
+		assert ((s_B_greater_A = '0') and (s_B_equals_A = '1') and (s_B_less_A = '0'))
+		report "Test failed for input combination: 0000, 0000" severity error;
+        
+        s_b <= "0111"; s_a <= "0011"; wait for 100 ns;
+		assert ((s_B_greater_A = '1') and (s_B_equals_A = '0') and (s_B_less_A = '0'))
+		report "Test failed for input combination: 0000, 0000" severity error;
+        
+        s_b <= "0011"; s_a <= "0111"; wait for 100 ns;
+		assert ((s_B_greater_A = '0') and (s_B_equals_A = '0') and (s_B_less_A = '1'))
+		report "Test failed for input combination: 0000, 0000" severity error;
+        
+        s_b <= "1111"; s_a <= "0000"; wait for 100 ns;
+		assert ((s_B_greater_A = '0') and (s_B_equals_A = '1') and (s_B_less_A = '0'))
+		report "Test failed for input combination: 0000, 0000" severity error;
+```
