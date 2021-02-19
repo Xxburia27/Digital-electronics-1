@@ -38,6 +38,8 @@ less_PoS = M0 . M4 . M5 . M8 . M9 . M10 . M12 . M13 . M14 . M15 =</br>
 
 ## Realizace 4-bit. pomocí VHDL
 
+## VHDL kód testbench:
+
 ```vhdl
 
        p_stimulus : process
@@ -94,4 +96,18 @@ less_PoS = M0 . M4 . M5 . M8 . M9 . M10 . M12 . M13 . M14 . M15 =</br>
         report "Stimulus process finished" severity note;
         wait;
     end process p_stimulus;
+```
+## VHDL kód design
+```vhdl
+architecture Behavioral of comparator_2bit is
+begin
+    B_less_A_o    <= '1' when (b_i < a_i) else '0';
+    B_greater_A_o <= '1' when (b_i > a_i) else '0';
+    B_equals_A_o  <= '1' when (b_i = a_i) else '0';
+
+
+    -- WRITE "GREATER" AND "EQUALS" ASSIGNMENTS HERE
+
+
+end architecture Behavioral;
 ```
