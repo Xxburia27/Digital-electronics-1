@@ -1,8 +1,8 @@
 # Cvičení 2. Combinational logic.
 
 ## Odkaz na EDA playground:
-[2-bit](https://www.edaplayground.com/x/uCyF)
-[4-bit](https://www.edaplayground.com/x/8SBm)
+[2-bit EDA playground](https://www.edaplayground.com/x/uCyF)</br>
+[4-bit EDA playground](https://www.edaplayground.com/x/8SBm)</br>
 
 ## Pravdivostní tabulka:
 
