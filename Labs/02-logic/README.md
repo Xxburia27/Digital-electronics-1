@@ -28,7 +28,7 @@ equals_SoP = m0 + m5 + m10 + m15 = (!b1.!b0.!a1.!a0) + (!b1.b0.!a1.a0) + (b1.!b0
 less_PoS = M0 . M4 . M5 . M8 . M9 . M10 . M12 . M13 . M14 . M15 =</br>
 (b1+b0+a1+a0).(b1+!b0+a1+a0).(b1+!b0+a1+!a0).(!b1+b0+a1+a0).(!b1+b0+a1+!a0).(!b1+b0+!a1+a0).(!b1+!b0+a1+a0).(!b1+!b0+a1+!a0).(!b1+!b0+!a1+a0).(!b1 +!b0+!a1+!a0)</br>
 
-## Karnaughovy mapy</br>
+## Karnaughovy mapy
 
-![Mapa_1] (images/default.png)</br>
+![Mapa_2](/images/mapa2.png)
 
