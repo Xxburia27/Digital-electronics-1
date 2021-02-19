@@ -45,6 +45,7 @@ less_PoS = M0 . M4 . M5 . M8 . M9 . M10 . M12 . M13 . M14 . M15 =</br>
 Chyba byla vyvolána na posledním řádku realizace, vyýsledek je na obrázku níže.
 
 ![Chyba](./images/chyba.png)
+![Chyba](./images/vystup.png)
 
 ## VHDL kód testbench:
 
