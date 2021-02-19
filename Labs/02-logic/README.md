@@ -40,43 +40,58 @@ less_PoS = M0 . M4 . M5 . M8 . M9 . M10 . M12 . M13 . M14 . M15 =</br>
 
 ```vhdl
 
-       	s_b <= "0000"; s_a <= "0000"; wait for 100 ns;
+       p_stimulus : process
+    begin
+       
+        report "Stimulus process started" severity note;
+       
+        s_b <= "0000"; s_a <= "0000"; wait for 100 ns;
+            
+        assert ((s_B_greater_A = '0') and (s_B_equals_A = '1') and (s_B_less_A = '0'))
+        -- If false, then report an error
+        report "Test failed for input combination: 0000, 0000" severity error;
+        
+            	s_b <= "0000"; s_a <= "0000"; wait for 100 ns;
 		assert ((s_B_greater_A = '0') and (s_B_equals_A = '1') and (s_B_less_A = '0'))
 		report "Test failed for input combination: 0000, 0000" severity error;
         
         s_b <= "0001"; s_a <= "0000"; wait for 100 ns;
 		assert ((s_B_greater_A = '1') and (s_B_equals_A = '0') and (s_B_less_A = '0'))
-		report "Test failed for input combination: 0000, 0000" severity error;
+		report "Test failed for input combination: 0001, 0000" severity error;
         
         s_b <= "0000"; s_a <= "0001"; wait for 100 ns;
 		assert ((s_B_greater_A = '0') and (s_B_equals_A = '0') and (s_B_less_A = '1'))
-		report "Test failed for input combination: 0000, 0000" severity error;
+		report "Test failed for input combination: 0000, 0001" severity error;
         
                	s_b <= "0001"; s_a <= "0001"; wait for 100 ns;
 		assert ((s_B_greater_A = '0') and (s_B_equals_A = '1') and (s_B_less_A = '0'))
-		report "Test failed for input combination: 0000, 0000" severity error;
+		report "Test failed for input combination: 0001, 000+" severity error;
         
         s_b <= "0011"; s_a <= "0001"; wait for 100 ns;
 		assert ((s_B_greater_A = '1') and (s_B_equals_A = '0') and (s_B_less_A = '0'))
-		report "Test failed for input combination: 0000, 0000" severity error;
+		report "Test failed for input combination: 0011, 0001" severity error;
         
         s_b <= "0001"; s_a <= "0011"; wait for 100 ns;
 		assert ((s_B_greater_A = '0') and (s_B_equals_A = '0') and (s_B_less_A = '1'))
-		report "Test failed for input combination: 0000, 0000" severity error;
+		report "Test failed for input combination: 0001, 0011" severity error;
         
                	s_b <= "0011"; s_a <= "0011"; wait for 100 ns;
 		assert ((s_B_greater_A = '0') and (s_B_equals_A = '1') and (s_B_less_A = '0'))
-		report "Test failed for input combination: 0000, 0000" severity error;
+		report "Test failed for input combination: 0011, 0011" severity error;
         
         s_b <= "0111"; s_a <= "0011"; wait for 100 ns;
 		assert ((s_B_greater_A = '1') and (s_B_equals_A = '0') and (s_B_less_A = '0'))
-		report "Test failed for input combination: 0000, 0000" severity error;
+		report "Test failed for input combination: 0111, 0011" severity error;
         
         s_b <= "0011"; s_a <= "0111"; wait for 100 ns;
 		assert ((s_B_greater_A = '0') and (s_B_equals_A = '0') and (s_B_less_A = '1'))
-		report "Test failed for input combination: 0000, 0000" severity error;
+		report "Test failed for input combination: 0011, 0111" severity error;
         
         s_b <= "1111"; s_a <= "0000"; wait for 100 ns;
 		assert ((s_B_greater_A = '0') and (s_B_equals_A = '1') and (s_B_less_A = '0'))
-		report "Test failed for input combination: 0000, 0000" severity error;
+		report "Test failed for input combination: 1111, 0000" severity error;
+
+        report "Stimulus process finished" severity note;
+        wait;
+    end process p_stimulus;
 ```
