@@ -8,7 +8,7 @@ Porty pro připojení switchů a ledek byly nalezeny v manuálu na webové strá
 
 ### Tabulka switche a ledky
 
-| **SWITCH** | **PORT** | **LED** | **PORT** |	| **SWITCH** | **PORT** | **LED** | **PORT** |
+| **SWITCH** | **PORT** | **LED** | **PORT** || **SWITCH** | **PORT** | **LED** | **PORT** |
 | :-: | :-: | :-: | :-: |			| :-: | :-: | :-: | :-: |
 | SW0 | J15 | LED0 | H17 |			| SW8 | T8 | LED8 | V16 |
 | SW1 | L16 | LED1 | K15 |			| SW9 | U8 | LED9 | T15 |
