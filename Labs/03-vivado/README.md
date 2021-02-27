@@ -27,7 +27,7 @@ Porty pro připojení switchů a ledek byly nalezeny v manuálu na webové strá
 | SW14 | U11 | LED14 | V12 |
 | Sw15 | V10 | LED15 | V11 |
 
-###VHDL kód Architecture
+### VHDL kód Architecture
 ```vhdl
 architecture Behavioral of comparator_2bit is
 begin
@@ -39,7 +39,7 @@ f_o <= a_i when (sel_i ="00") else
 
 end architecture Behavioral;
 ```
-###VHDL kód Stimulus process
+### VHDL kód Stimulus process
 ```vhdl
  p_stimulus : process
     begin
@@ -83,3 +83,5 @@ end architecture Behavioral;
 ```
 ### Simulace
 ![Simulace](./images/simulace.PNG)
+
+## Druhá část cvičení - návod na Vivado
