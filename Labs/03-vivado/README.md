@@ -81,3 +81,5 @@ end architecture Behavioral;
         wait;
     end process p_stimulus;
 ```
+### Simulace
+![Simulace](./images/simulace.png)
