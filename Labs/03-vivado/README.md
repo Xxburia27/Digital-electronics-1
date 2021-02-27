@@ -82,4 +82,4 @@ end architecture Behavioral;
     end process p_stimulus;
 ```
 ### Simulace
-![Simulace](./images/simulace.png)
+![Simulace] (./images/simulace.PNG)
