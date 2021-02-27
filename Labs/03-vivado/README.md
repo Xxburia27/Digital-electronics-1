@@ -13,7 +13,7 @@ Porty pro připojení switchů a ledek byly nalezeny v manuálu na webové strá
 | SW0 | J15 | LED0 | H17 |		     
 | SW1 | L16 | LED1 | K15 |		     
 | SW2 | M13 | LED2 | J13 |	            			
-| SW3 | R15 | LED3 | N14 |		    
+| SW3 | R15 | LED3 | N14 |		 
 | SW4 | R17 | LED4 | R18 |		     
 | SW5 | T18 | LED5 | V17 |	             
 | SW6 | U18 | LED6 | U17 |	             
@@ -26,3 +26,58 @@ Porty pro připojení switchů a ledek byly nalezeny v manuálu na webové strá
 | SW13 | U12 | LED13 | V14 |
 | SW14 | U11 | LED14 | V12 |
 | Sw15 | V10 | LED15 | V11 |
+
+###VHDL kód Architecture
+```vhdl
+architecture Behavioral of comparator_2bit is
+begin
+
+f_o <= a_i when (sel_i ="00") else
+          b_i when (sel_i ="01") else
+          c_i when (sel_i ="10") else
+          d_i when (sel_i ="11");
+
+end architecture Behavioral;
+```
+###VHDL kód Stimulus process
+```vhdl
+ p_stimulus : process
+    begin
+
+        report "Stimulus process started" severity note;
+
+        s_d <= "00"; s_c <= "00";s_b <= "00"; s_a <= "00";
+        s_sel <= "00";wait for 100ns;
+        
+        s_d <= "01"; s_c <= "01";s_b <= "00"; s_a <= "00";
+        s_sel <= "01";wait for 100ns;
+        
+        s_d <= "00"; s_c <= "00";s_b <= "01"; s_a <= "01";
+        s_sel <= "00";wait for 100ns;
+        
+        s_d <= "01"; s_c <= "01";s_b <= "01"; s_a <= "01";
+        s_sel <= "01";wait for 100ns;
+        
+        s_d <= "11"; s_c <= "11";s_b <= "01"; s_a <= "01";
+        s_sel <= "11";wait for 100ns;
+        
+        s_d <= "01"; s_c <= "01";s_b <= "11"; s_a <= "11";
+        s_sel <= "11";wait for 100ns;
+        
+        s_d <= "11"; s_c <= "11";s_b <= "11"; s_a <= "11";
+        s_sel <= "11";wait for 100ns;
+        
+        s_d <= "11"; s_c <= "01";s_b <= "11"; s_a <= "01";
+        s_sel <= "01";wait for 100ns;
+        
+        s_d <= "11"; s_c <= "11";s_b <= "11"; s_a <= "11";
+        s_sel <= "00";wait for 100ns;
+        
+        s_d <= "01"; s_c <= "01";s_b <= "11"; s_a <= "10";
+        s_sel <= "10";wait for 100ns;
+        
+        
+        report "Stimulus process finished" severity note;
+        wait;
+    end process p_stimulus;
+```
