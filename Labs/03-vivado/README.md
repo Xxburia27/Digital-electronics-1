@@ -2,6 +2,10 @@
 
 # První část cvičení - implementace 2-bit_mux_4to1
 
+Porty pro připojení switchů a ledek byly nalezeny v manuálu na webové stránce:
+
+[](https://reference.digilentinc.com/reference/programmable-logic/nexys-a7/reference-manual) 
+
 ## Tabulka switche a ledky
 
 | **SWITCH** | **PORT** | **LED** | **PORT** |
