@@ -97,6 +97,12 @@ Předchozími kroky jsme vytvořili prázdný projekt. Nyní si do projektu při
 <br/>
 Na další straně vybereme *Create file*. Po vyskočení okénka vybereme jazyk VHDL a zadáme název.
 ![add_2](./images/add_2.PNG)
- Klikneme na *finish*, pak už jen vše potvrdíme.
+<br/>
+<br/>
+Klikneme na *finish*, další dialogová okna už jen potvrdíme.
+![add_3](./images/add_3.PNG)
+<br/>
+<br/>
+
 
 
