@@ -124,5 +124,3 @@ Pro simulaci v hlavní liště vyhledámě *flow*, potom *sumilation* a pak už 
 <br/>
 Simulaci si přizpůsobíme pomocí *zoom fit*, viz. obrázek. Můžeme si taky změnít barvu pro každý průběh simulace. Stačí např. pro *a_i* kliknout pravým tlačítkem myší. Z nabídky vybart *signal color*.
 ![add_8](./images/add_8.png)
-
-
