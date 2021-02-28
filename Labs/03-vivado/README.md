@@ -116,7 +116,11 @@ Opět postupujeme stejně, akorát v *add sources* volíme *Add or create contra
 <br/>
 <br/>
 #### 4. Simulace
-Pro simulaci v hlavní liště vyhledámě *flow* potom *sumilation* a pak už jen *run behavioral simulation*
+Pro simulaci v hlavní liště vyhledámě *flow*, potom *sumilation* a pak už jen *run behavioral simulation*
 ![add_7](./images/add_7.PNG)
+<br/>
+<br/>
+Simulaci si přizpůsobíme pomocí *zoom fit*, viz. obrázek. Můžeme si taky změnít barvu pro každý průběh simulace. Stačí např. pro *a_i* kliknout pravým tlačítkem myší. Z nabídky vybart *signal color*.
+![add_8](./images/add_8.PNG)
 
 
