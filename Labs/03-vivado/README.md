@@ -90,7 +90,9 @@ Po otevření programu Vivado zadáme *Create new project*. Vyskočí nám nové
 Postupujeme přesně jako na obrázku. Nejříve si vybereme záložku *boards* a v pole pro vyhledávání napíšešme *Nexys* vě výběru potom volíme *Nexys A7-50T* a dáme next. Na další straně už klikneme na tlačítko *finish*, pro vytvoření projektu.
 ![Deska](./images/deska.PNG)</br>
 Předchozími kroky jsme vytvořili prázdný projekt. Nyní si do projektu přidáme nějaké soubory. Nejdříve si přídáme soubor pro *design* z [EDA playground](https://www.edaplayground.com/x/uCyF) zkopírujeme kód z *design*. V programu Vivado v navigační liště klikneme na *add sources* dále vybereme *add or create design sources*, klikneme na *next*.
-![add_1](./images/add_1.PNG)
-Na další straně vybere *Create file*. Po vyskočení okénka vybereme jazyk VHDL a zadáme název. Klikneme na *finish*, pak už jen vše potvrdíme.
+![add_1](./images/add_1.PNG)</br>
+Na další straně vybereme *Create file*. Po vyskočení okénka vybereme jazyk VHDL a zadáme název.
+![add_2](./images/add_2.PNG)</br>
+ Klikneme na *finish*, pak už jen vše potvrdíme.
 
 
