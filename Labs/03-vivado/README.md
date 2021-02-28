@@ -93,6 +93,10 @@ end architecture Behavioral;
 <br/>
 <br/>
 <br/>
+<br/>
+<br/>
+<br/>
+<br/>
 
 ## Druhá část cvičení - návod na Vivado
 ### Založení projektu
