@@ -83,6 +83,16 @@ end architecture Behavioral;
 ```
 ### Simulace
 ![Simulace](./images/simulace.PNG)
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 
 ## Druhá část cvičení - návod na Vivado
 ### Založení projektu
