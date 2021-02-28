@@ -103,6 +103,8 @@ Klikneme na *finish*, další dialogová okna už jen potvrdíme.
 ![add_3](./images/add_3.PNG)
 <br/>
 <br/>
+**Obdobně založíme soubor pro testbench**, kód pro testbench opět zkopírujeme z [EDA playground](https://www.edaplayground.com/x/uCyF). Tentokrát v *add sources* volíme *Add or create simulation sources*. Dále pokračujeme stejně jako v předchozím krouku.
+![add_4](./images/add_4.PNG)
 
 
 
