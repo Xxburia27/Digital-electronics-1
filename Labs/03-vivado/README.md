@@ -109,6 +109,13 @@ Klikneme na *finish*, další dialogová okna už jen potvrdíme.
 ![add_4](./images/add_4.PNG)
 <br/>
 <br/>
+#### 3. XDC soubor
+Opět postupujeme stejně, akorát v **add sources** volíme **Add or create contraints sources**. V tomto případě nesmíme zapomenout změní **file type** při tvorbě souboru. Do vytvořeného souboru si ze stránky: https://github.com/Digilent/digilent-xdc/blob/master/Arty-S7-50-Master.xdc zkopírujeme obsah a můžeme nastavit hodnoty pro porty. V našem případě ledky a swithce.
+![add_5](./images/add_5.PNG)
+![add_6](./images/add_6.PNG)
+<br/>
+<br/>
+#### 4. Simulace
 
 
 
