@@ -85,24 +85,8 @@ end architecture Behavioral;
 ![Simulace](./images/simulace.PNG)
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-
 ## Druhá část cvičení - návod na Vivado
+V této části bylo za úkol vytvořit jednoduchý návod na vytvoření projektu v programu Vivado. 
 ### Založení projektu
 #### 1.Design soubor
 Po otevření programu Vivado zadáme *Create new project*. Vyskočí nám nové okno, kde klikneme na tlačítko *next*. Okno nám poskočí na další stránku, kde vyplníme název projektu, popřípadě změníme místo uložení. Dále budeme klikat na *next*, dokud se nám nezobrazí okno s výběrem desky. Viz. obrázek níže.
