@@ -129,6 +129,10 @@ Opět postupujeme stejně, akorát v *add sources* volíme *Add or create contra
 ![add_6](./images/add_6.PNG)
 <br/>
 <br/>
+Nakonec vidíme v kartě *Sources* naše vytvořené soubory.
+![add_12](./images/add_12.png)
+<br/>
+<br/>
 #### 4. Simulace
 Pro simulaci v hlavní liště vyhledámě *flow*, potom *sumilation* a pak už jen *run behavioral simulation*
 ![add_7](./images/add_7.PNG)
