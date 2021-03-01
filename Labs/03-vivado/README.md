@@ -91,6 +91,8 @@ V této části bylo za úkol vytvořit jednoduchý návod na vytvoření projek
 #### 1.Design soubor
 Po otevření programu Vivado klikneme na *Create new project*. Vyskočí nám nové okno, kde klikneme na tlačítko *next*. Okno nám poskočí na další stránku, kde vyplníme název projektu, popřípadě změníme místo uložení.
 ![add_10](./images/add_10.png)
+<br/>
+<br/>
 Na dalším okně zaklikneme položku *RTL Project*.
 ![add_9](./images/add_9.png)
 <br/>
