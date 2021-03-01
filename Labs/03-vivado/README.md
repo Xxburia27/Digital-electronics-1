@@ -85,6 +85,20 @@ end architecture Behavioral;
 ![Simulace](./images/simulace.PNG)
 <br/>
 <br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 ## Druhá část cvičení - návod na Vivado
 V této části bylo za úkol vytvořit jednoduchý návod na vytvoření projektu v programu Vivado. 
 ### Založení projektu
