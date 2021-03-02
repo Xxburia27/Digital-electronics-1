@@ -97,12 +97,12 @@ Na dalším okně zaklikneme položku *RTL Project*.
 ![add_9](./images/add_9.png)
 <br/>
 <br/>
-V *Add sources* zatím nebudem přidávat žádne soubory. Pouze hodnoty *targe language* a *simulation language*, volíme VHDL
+V *Add sources* zatím nebudem přidávat žádne soubory. Pouze hodnoty *targeg language* a *simulation language*, volíme VHDL
 ![add_11](./images/add_11.png)
 <br/>
 <br/>
 Dále budeme klikat na *next*, dokud se nám nezobrazí okno s výběrem desky. Viz. obrázek níže.
-Postupujeme přesně jako na obrázku. Nejříve si vybereme záložku *boards* a v pole pro vyhledávání napíšešme *Nexys* vě výběru potom volíme *Nexys A7-50T* a dáme next. Na další straně už klikneme na tlačítko *finish*, pro vytvoření projektu.
+Postupujeme přesně jako na obrázku. Nejříve si vybereme záložku *boards* a v poli pro vyhledávání napíšešme *Nexys* vě výběru potom volíme *Nexys A7-50T* a dáme next. Na další straně už klikneme na tlačítko *finish*, pro vytvoření projektu.
 ![Deska](./images/deska.PNG)
 <br/>
 <br/>
