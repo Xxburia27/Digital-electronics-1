@@ -17,9 +17,11 @@
 | C | 1100 | 1 | 1 | 1 | 0 | 0 | 1 | 0 |
 | D | 1101 | 1 | 0 | 0 | 0 | 0 | 1 | 0 |
 | E | 1110 | 0 | 1 | 1 | 0 | 0 | 0 | 0 |
-| F | 1111 | 0 | 1 | 1 | 1 | 0 | 0 | 0 |
-##Zapojení portů desky Nexys A7
+| F | 1111 | 0 | 1 | 1 | 1 | 0 | 0 | 0 |</br>
+
+## Zapojení portů desky Nexys A7
 ![manual](./images/manual.png)
+
 ## VHDL Design kód ze souboru `hex_7seg.vhd`
 ```vhdl
 architecture behavioral of hex_7seg is
