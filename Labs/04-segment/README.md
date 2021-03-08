@@ -151,7 +151,7 @@ p_7seg_decoder : process
     s_hex <= "1111";
     wait for 100ns;
     assert (s_seg = "0111000")
-    report "Value: E failed" severity error;
+    report "Value: F failed" severity error;
     
     
     end process p_7seg_decoder;
