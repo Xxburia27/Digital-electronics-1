@@ -31,7 +31,7 @@
         end if;
     end process p_cnt_up_down;
 ```
-## Obousměrný číatač testbench kód procesu ze souboru`tb_cnt_up_down.vhd`
+## Obousměrný čítač testbench kód procesu ze souboru`tb_cnt_up_down.vhd`
 ### Pro reset
 ```vhdl 
 p_reset_gen : process
