@@ -13,7 +13,7 @@
 
 ![manual](./images/manual.png)
 
-## Obousměrný číatač design kód procesu ze souboru`p_cnt_up_down`
+## Obousměrný čítač design kód procesu ze souboru`p_cnt_up_down`
 ```vhdl
  p_cnt_up_down : process(clk)
     begin
