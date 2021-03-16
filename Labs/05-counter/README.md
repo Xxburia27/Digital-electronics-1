@@ -149,11 +149,11 @@ begin
 
     -- Connect one common anode to 3.3V
     AN <= b"1111_1110";
-
-
+    
 end Behavioral;
-
 ```
+## Obrázek 4 a 16 bitového čítače
+![citac](./images/image.png)
 
 
 
