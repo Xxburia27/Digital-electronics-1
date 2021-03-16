@@ -46,16 +46,20 @@ p_reset_gen : process
 ```
 ### Pro process
 ```vhdl
-p_clk_gen : process
+p_stimulus : process
     begin
-        while now < 750 ns loop         -- 75 periods of 100MHz clock
-            s_clk_100MHz <= '0';
-            wait for c_CLK_100MHZ_PERIOD / 2;
-            s_clk_100MHz <= '1';
-            wait for c_CLK_100MHZ_PERIOD / 2;
-        end loop;
+        report "Stimulus process started" severity note;
+
+        s_en     <= '1';                -- Enable counting
+        s_cnt_up <= '1';
+        wait for 380 ns;                -- Change counter direction
+        s_cnt_up <= '0';
+        wait for 220 ns;
+        s_en     <= '0';                -- Disable counting
+
+        report "Stimulus process finished" severity note;
         wait;
-    end process p_clk_gen;
+    end process p_stimulus;
 ```
 
 
