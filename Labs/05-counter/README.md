@@ -61,5 +61,10 @@ p_stimulus : process
         wait;
     end process p_stimulus;
 ```
+## Simulace
+### Celková simulace
+![simulace_1](./images/Simulace.PNG)
+### Změna směru čítání
+![simulace_2](./images/Simulace_zmena.PNG)
 
 
