@@ -31,4 +31,31 @@
         end if;
     end process p_cnt_up_down;
 ```
+## Obousměrný číatač testbench kód procesu ze souboru`tb_cnt_up_down.vhd`
+### Pro reset
+```vhdl 
+p_reset_gen : process
+    begin
+        s_reset <= '0';
+        wait for 12 ns;
+        s_reset <= '1';                 -- Reset activated
+        wait for 73 ns;
+        s_reset <= '0';
+        wait;
+    end process p_reset_gen;
+```
+### Pro process
+```vhdl
+p_clk_gen : process
+    begin
+        while now < 750 ns loop         -- 75 periods of 100MHz clock
+            s_clk_100MHz <= '0';
+            wait for c_CLK_100MHZ_PERIOD / 2;
+            s_clk_100MHz <= '1';
+            wait for c_CLK_100MHZ_PERIOD / 2;
+        end loop;
+        wait;
+    end process p_clk_gen;
+```
+
 
