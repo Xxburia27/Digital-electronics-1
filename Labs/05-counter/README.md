@@ -155,5 +155,5 @@ end Behavioral;
 ## Obrázek 4 a 16 bitového čítače
 ![citac](./images/image.png)
 
-
+aloha
 
