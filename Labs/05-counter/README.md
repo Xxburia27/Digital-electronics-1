@@ -13,7 +13,7 @@
 
 ![manual](./images/manual.png)
 
-## Obousměrný číatač design kód procesu ze souboru`p_cnt_up_down`
+## Obousměrný čítač design kód procesu ze souboru`p_cnt_up_down`
 ```vhdl
  p_cnt_up_down : process(clk)
     begin
@@ -31,7 +31,7 @@
         end if;
     end process p_cnt_up_down;
 ```
-## Obousměrný číatač testbench kód procesu ze souboru`tb_cnt_up_down.vhd`
+## Obousměrný čítač testbench kód procesu ze souboru`tb_cnt_up_down.vhd`
 ### Pro reset
 ```vhdl 
 p_reset_gen : process
@@ -149,11 +149,11 @@ begin
 
     -- Connect one common anode to 3.3V
     AN <= b"1111_1110";
-
-
+    
 end Behavioral;
-
 ```
+## Obrázek 4 a 16 bitového čítače
+![citac](./images/image.png)
 
 
 
