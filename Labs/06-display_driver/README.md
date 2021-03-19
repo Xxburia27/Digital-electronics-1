@@ -58,7 +58,7 @@ p_mux : process(s_cnt, data0_i, data1_i, data2_i, data3_i, dp_i)
         end case;
     end process p_mux;
 ```
-## VHDL kód testbench
+## VHDL kód testbench `tb_driver_7seg_4digits`
 ```vhdl
 library ieee;
 use ieee.std_logic_1164.all;
@@ -112,7 +112,7 @@ begin
        seg_o    => s_seg_o,       
        dig_o    => s_dig_o  
  );                   
-    -------------         -------------------------------------------------------
+    --------------------------------------------------------------------
     -- Clock generation process
     --------------------------------------------------------------------
     p_clk_gen : process
