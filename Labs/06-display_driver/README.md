@@ -59,7 +59,7 @@ p_mux : process(s_cnt, data0_i, data1_i, data2_i, data3_i, dp_i)
     end process p_mux;
 ```
 ## VHDL kód testbench
-
+```vhdl
 library ieee;
 use ieee.std_logic_1164.all;
 
@@ -172,6 +172,7 @@ p_stimulus : process
     end process p_stimulus;
  
 end architecture testbench;
+```
 ##Simulace
 ![Simulace](./images/simulace.PNG)
 ## VHDL kód `top`
