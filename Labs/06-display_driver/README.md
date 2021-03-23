@@ -256,6 +256,6 @@ begin
 end architecture Behavioral;
 ```
 ## Obrázek driver 7 seg - 8.bit
-![image](./images/image.PNG)
+![image](./images/image.png)
 
 
