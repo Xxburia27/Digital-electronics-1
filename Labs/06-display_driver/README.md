@@ -173,7 +173,7 @@ p_stimulus : process
  
 end architecture testbench;
 ```
-##Simulace
+## Simulace
 ![Simulace](./images/simulace.PNG)
 ## VHDL kód `top`
 ```vhdl
