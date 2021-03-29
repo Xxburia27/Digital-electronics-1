@@ -102,6 +102,6 @@ report "Stimulus process started" severity note;
 end process p_d_latch;
 ```
 ## Simulace
-![Simulace_1](./images/simulace_1.PNG)
+![Simulace_1](./images/Simulace_1.PNG)
 
 
