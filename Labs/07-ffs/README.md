@@ -527,7 +527,7 @@ begin
 end process p_stimulus;
 ```
 ## Simulace
-![Simulace_5](./images/Simulace_5)
+![Simulace_5](./images/Simulace_5.PNG)
 
 
 
