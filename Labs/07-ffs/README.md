@@ -306,7 +306,7 @@ end process p_stimulus;
 ```
 ![Simulace_3](./images/Simulace_3.PNG)
 
-## flip-flops vhdl kód `p_jj_ff_arst` 
+## flip-flops vhdl kód `p_jj_ff_rst` 
 ```vhdl
 jk_ff_rst :process (clk)
   variable qn : std_logic;
