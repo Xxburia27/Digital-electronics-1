@@ -211,6 +211,101 @@ end process p_stimulus;
 ## Simulace
 ![Simulavce_2](./images/Simulace_2.PNG)
 
+## flip-flops vhdl kód `p_d_ff_rst` 
+```vhdl
+p_d_ff_rst :process (clk)
+    begin
+       if rising_edge (clk) then
+         if(rst = '1') then 
+           s_q     <= '0';
+           s_q_bar <= '1'; 
+       else
+           s_q     <= d;    
+           s_q_bar <= not d;
+         end if;
+       end if;
+     end process p_d_ff_rst;
+```
+## flip-flops vhdl kód testbench, reset
+```vhdl
+p_reset_gen : process
+begin
+    s_rst <= '0';
+    wait for 328ns;
+    
+    s_rst <= '1';          -- reset activated
+    wait for 144ns;
+    
+    s_rst <= '0';          -- reset deactivated
+    wait;
+    
+end process p_reset_gen;
+```
+## flip-flops vhdl kód testbench, stimulus
+```vhdl
+p_stimulus :process
+begin
+        report "Stimulus process started" severity note;
+
+          s_d    <= '0';
+          wait for 26 ns;
+
+          s_d    <= '1'; 
+          wait for 14 ns;
+          s_d    <= '0';
+          wait for 24 ns;
+          s_d    <= '1';
+          wait for 22 ns;
+          s_d    <= '0';
+          wait for 36 ns;
+
+                                        -- Test enable
+          wait for 14 ns;
+          s_d  <= '1';
+          wait for 14 ns;
+          s_d  <= '0';
+          wait for 24 ns;
+          s_d  <= '1';
+          wait for 22 ns;
+          s_d  <= '0';
+          wait for 36 ns;
+          wait for 56 ns;
+
+          s_d    <= '1'; 
+          wait for 14 ns;
+          s_d    <= '0'; 
+          wait for 24 ns;
+          s_d    <= '1'; 
+          wait for 22 ns;
+          s_d    <= '0'; 
+          wait for 36 ns;
+
+                                        -- Test reset
+          wait for 14 ns;
+          s_d    <= '1';
+          wait for 14 ns;
+          s_d    <= '0';
+          wait for 36 ns;
+          s_d  <= '1';
+          wait for 22 ns;
+          s_d <= '0';
+          wait for 56 ns;
+          s_d <= '1';
+          wait for 14 ns;
+          s_d <= '0';
+          wait for 24 ns;
+          s_d <= '1';
+          wait for 22 ns;
+          s_d <= '0';
+          wait for 36  ns;
+           
+           report "Stimulus process finished" severity note;
+           wait;
+        
+end process p_stimulus;
+```
+![Simulace_3](./images/Simulace_3)
+
 
 
 
