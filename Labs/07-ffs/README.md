@@ -304,7 +304,7 @@ begin
         
 end process p_stimulus;
 ```
-![Simulace_3](./images/Simulace_3)
+![Simulace_3](./images/Simulace_3.PNG)
 
 
 
