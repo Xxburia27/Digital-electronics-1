@@ -306,6 +306,130 @@ end process p_stimulus;
 ```
 ![Simulace_3](./images/Simulace_3.PNG)
 
+## flip-flops vhdl kód `p_jj_ff_arst` 
+```vhdl
+jk_ff_rst :process (clk)
+  variable qn : std_logic;
+    begin
+       if rising_edge (clk) then
+         if(rst = '1') then 
+           qn := '0';
+       else
+       if (j = '0' and k = '0') then
+           qn := qn;
+       elsif (j = '0' and k = '1') then
+           qn := '0';
+       elsif (j = '1' and k = '0') then
+           qn := '1';
+       else
+           qn := not qn;
+         end if;
+       end if;
+     end if;
+     q     <= qn;
+     q_bar <= not qn;
+     end process jk_ff_rst;
+```
+## flip-flops vhdl kód testbench, reset
+```vhdl
+jp_reset_gen : process
+begin
+    s_rst <= '0';
+    wait for 328ns;
+    
+    s_rst <= '1';          -- reset activated
+    wait for 144ns;
+    
+    s_rst <= '0';          -- reset deactivated
+    wait;
+    
+end process p_reset_gen;
+```
+## flip-flops vhdl kód testbench, stimulus
+```vhdl
+p_stimulus :process
+begin
+        report "Stimulus process started" severity note;
+
+          s_j    <= '0';
+          s_k    <= '0';
+          wait for 26 ns;
+          
+          s_j    <= '1'; 
+          s_k    <= '0';
+          wait for 14 ns;
+          s_j    <= '0';
+          s_k    <= '0';
+          wait for 24 ns;
+          s_j    <= '0';
+          s_k    <= '1';
+          wait for 22 ns;
+          s_j    <= '1';
+          s_k    <= '1';
+          wait for 36 ns;
+          s_j    <= '0';
+          s_k    <= '0';
+          wait for 26 ns;
+          
+          s_j    <= '1'; 
+          s_k    <= '0';
+          wait for 14 ns;
+          s_j    <= '0';
+          s_k    <= '0';
+          wait for 24 ns;
+          s_j    <= '0';
+          s_k    <= '1';
+          wait for 22 ns;
+          s_j    <= '1';
+          s_k    <= '1';
+          wait for 36 ns;
+          s_j    <= '0';
+          s_k    <= '0';
+          wait for 26 ns;
+          
+          s_j    <= '1'; 
+          s_k    <= '0';
+          wait for 14 ns;
+          s_j    <= '0';
+          s_k    <= '0';
+          wait for 24 ns;
+          s_j    <= '0';
+          s_k    <= '1';
+          wait for 22 ns;
+          s_j    <= '1';
+          s_k    <= '1';
+          wait for 36 ns;
+          s_j    <= '0';
+          s_k    <= '0';
+          wait for 26 ns;
+          
+          s_j    <= '1'; 
+          s_k    <= '0';
+          wait for 14 ns;
+          s_j    <= '0';
+          s_k    <= '0';
+          wait for 24 ns;
+          s_j    <= '0';
+          s_k    <= '1';
+          wait for 22 ns;
+          s_j    <= '1';
+          s_k    <= '1';
+          wait for 36 ns;
+          s_j    <= '0';
+          s_k    <= '0';
+          wait for 26 ns;
+           
+           report "Stimulus process finished" severity note;
+           wait;
+        
+end process p_stimulus;
+```
+![Simulace_4](./images/Simulace_4.PNG)
+
+
+
+
+
 
 
 
