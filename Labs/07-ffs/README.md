@@ -28,7 +28,7 @@ Pravdivostní tabulky
    | 1 | 0 | 1 | Invert (toggle) |
    | 1 | 1 | 0 | Invert (toggle) |
 
-## D-latch vhdl kód z 'p_d_latch', process
+## D-latch vhdl kód z `p_d_latch`, process
 ```vhdl
 p_d_latch : process(en, d, arst)
     begin
@@ -41,7 +41,7 @@ p_d_latch : process(en, d, arst)
         end if;
     end process p_d_latch;
 ```
-## D-latch testbench kód 'tb_p_d_latch', stimulus
+## D-latch testbench kód `tb_p_d_latch`, stimulus
 ```vhdl
 p_d_latch :process
 begin
@@ -102,6 +102,6 @@ report "Stimulus process started" severity note;
 end process p_d_latch;
 ```
 ## Simulace
-![Simulace_1](./images/simulace_1)
+![Simulace_1](./images/simulace_1.PNG)
 
 
