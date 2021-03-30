@@ -1,6 +1,15 @@
 # 7. Cvičení - ffs
 
 ## Domácí příprava
+
+rovnice:
+\begin{align*}
+    q_{n+1}^D = d \\
+    q_{n+1}^{JK} =notk * q_n + * notq_n\\
+    q_{n+1}^T =&\\
+\end{align*}-->
+
+
 Pravdivostní tabulky
 
    | **D** | **Qn** | **Q(n+1)** | **Comments** |
