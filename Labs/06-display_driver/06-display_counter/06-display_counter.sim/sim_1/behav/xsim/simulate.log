@@ -1,0 +1,12 @@
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+Note: Stimulus process started
+Time: 0 ps  Iteration: 0  Process: /tb_driver_7seg_4digits/p_stimulus  File: C:/Users/radek/Vivado/06-display_counter/06-display_counter.srcs/sim_1/new/tbdriver_7seg_4digits.vhd
+Error: First segment error
+Time: 385 ns  Iteration: 0  Process: /tb_driver_7seg_4digits/p_stimulus  File: C:/Users/radek/Vivado/06-display_counter/06-display_counter.srcs/sim_1/new/tbdriver_7seg_4digits.vhd
+Error: Second segment error
+Time: 385 ns  Iteration: 0  Process: /tb_driver_7seg_4digits/p_stimulus  File: C:/Users/radek/Vivado/06-display_counter/06-display_counter.srcs/sim_1/new/tbdriver_7seg_4digits.vhd
+Error: Third segment error
+Time: 385 ns  Iteration: 0  Process: /tb_driver_7seg_4digits/p_stimulus  File: C:/Users/radek/Vivado/06-display_counter/06-display_counter.srcs/sim_1/new/tbdriver_7seg_4digits.vhd
+Note: Stimulus process finished
+Time: 385 ns  Iteration: 0  Process: /tb_driver_7seg_4digits/p_stimulus  File: C:/Users/radek/Vivado/06-display_counter/06-display_counter.srcs/sim_1/new/tbdriver_7seg_4digits.vhd

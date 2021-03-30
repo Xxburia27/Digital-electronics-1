@@ -1,0 +1,9 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+C:/Users/radek/Vivado/06-display_counter/06-display_counter.srcs/sim_1/new/tbdriver_7seg_4digits.vhd,1616180860,vhdl,,,,tb_driver_7seg_4digits,,,,,,,,
+C:/Users/radek/Vivado/06-display_counter/06-display_counter.srcs/sources_1/new/driver_7seg_4digits.vhd,1616152340,vhdl,C:/Users/radek/Vivado/06-display_counter/06-display_counter.srcs/sim_1/new/tbdriver_7seg_4digits.vhd,,,driver_7seg_4digits,,,,,,,,
+C:/Users/radek/Vivado/counter/counter.srcs/sources_1/new/clock_enable.vhd,1615368243,vhdl,C:/Users/radek/Vivado/06-display_counter/06-display_counter.srcs/sources_1/new/driver_7seg_4digits.vhd,,,clock_enable,,,,,,,,
+C:/Users/radek/Vivado/counter/counter.srcs/sources_1/new/cnt_up_down.vhd,1616151301,vhdl,C:/Users/radek/Vivado/06-display_counter/06-display_counter.srcs/sources_1/new/driver_7seg_4digits.vhd,,,cnt_up_down,,,,,,,,
+C:/Users/radek/Vivado/counter/counter.srcs/sources_1/new/hex_7seg.vhd,1616152280,vhdl,C:/Users/radek/Vivado/06-display_counter/06-display_counter.srcs/sources_1/new/driver_7seg_4digits.vhd,,,hex_7seg,,,,,,,,
