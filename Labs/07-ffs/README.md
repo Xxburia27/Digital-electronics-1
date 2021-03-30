@@ -2,13 +2,19 @@
 
 ## Domácí příprava
 
-rovnice:
-\begin{align*}
-    q_{n+1}^D = d \\
-    q_{n+1}^{JK} =notk * q_n + * notq_n\\
-    q_{n+1}^T =&\\
-\end{align*}-->
-
+rovnice:</br>
+D:
+```vhdl
+q_(n+1) = d
+```
+JK:
+```vhdl
+q_(n+1) = (not k) * q_n + j * (not q_n)
+```
+T:
+```vhdl
+q_(n+1) = (not t) * q_n + t * (not q_n)
+```
 
 Pravdivostní tabulky
 
@@ -537,6 +543,9 @@ end process p_stimulus;
 ```
 ## Simulace
 ![Simulace_5](./images/Simulace_5.PNG)
+
+## Návrh 4-bit shift register
+![register](./images/DE1_ff.png)
 
 
 
