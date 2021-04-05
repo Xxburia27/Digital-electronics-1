@@ -135,7 +135,7 @@ p_output_fsm : process(s_state)
 ## Tabulka pro chytrý semafor
 
 | **Current state** | **Direction South** | **Direction West** | **Delay** | **Senzor** |
-| :-- | :-: | :-: | :-: | --: |
+| :-- | :-: | :-: | :-: | :-: |
 | `STOP1`      | red    | red | 1 sec | NO |
 | `WEST_GO`    | red    | green | 4 sec | YES |
 | `WEST_WAIT`  | red    | yellow | 2 sec | NO |
