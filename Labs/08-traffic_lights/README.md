@@ -146,7 +146,7 @@ p_output_fsm : process(s_state)
 <p align="center">
 <img width="496" height="536" src="./images/TS_diagram_smart.png">
 </p></br>
-## VHDL kód z `p_smart_traffic_fsm`
+## VHDL kód z `p_smart_traffic_fsm`</br>
 ```vhdl
 p_smart_traffic_fsm : process(clk)
     begin
