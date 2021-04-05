@@ -16,7 +16,7 @@
 | LD17 | N16, R11, G14 | 1,0,0 | 1,1,0 | 0,1,0 |
 ## Semafor - diagram
 <p align="center">
-<img width="580" height="510" src="./images/TS_diagram.png">
+<img width="496" height="536" src="./images/TS_diagram.png">
 </p></br>
 
 ## VHDL kód sekvenční proces z `p_traffic_fsm`</br>
@@ -143,4 +143,6 @@ p_output_fsm : process(s_state)
 | `SOUTH_GO`   | green  | red | 4 sec | YES |
 | `SOUTH_WAIT` | yellow | red | 2 sec | NO |
 ## Diagram pro chytrý semafor
-![diagram_2](./images/TS_diagram_smart.png)
+<p align="center">
+<img width="496" height="536" src="./images/TS_diagram_smart.png">
+</p></br>
