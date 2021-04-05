@@ -130,4 +130,4 @@ p_output_fsm : process(s_state)
     end process p_output_fsm;
 ```
 ## Simulace semaforu
-![Simulace_1](./images/simulace_1)
+![Simulace_1](./images/simulace_1.PNG)
