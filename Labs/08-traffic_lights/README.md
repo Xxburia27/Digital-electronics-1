@@ -16,5 +16,5 @@
 | LD17 | N16, R11, G14 | 1,0,0 | 1,1,0 | 0,1,0 |
 ## Semafor - diagram
 <p align="center">
-![diagram_1](./images/TS_diagram.png)
+<img width="460" height="300" src="./images/TS_diagram">
 </p>
