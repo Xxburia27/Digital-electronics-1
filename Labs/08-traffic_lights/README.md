@@ -142,3 +142,5 @@ p_output_fsm : process(s_state)
 | `STOP2`      | red    | red | 1 sec | NO |
 | `SOUTH_GO`   | green  | red | 4 sec | YES |
 | `SOUTH_WAIT` | yellow | red | 2 sec | NO |
+## Diagram pro chytrý semafor
+![diagram_2](./images/TS_diagram_smart.png)
