@@ -18,7 +18,8 @@
 <p align="center">
 <img width="580" height="510" src="./images/TS_diagram.png">
 </p></br>
-## VHDL kód sekvenční proces z `p_traffic_fsm`
+
+## VHDL kód sekvenční proces z `p_traffic_fsm`</br>
 
 ```vhdl
 p_traffic_fsm : process(clk)
