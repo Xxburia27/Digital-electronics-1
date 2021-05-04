@@ -1,0 +1,90 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue May  4 13:41:28 2021
+# Process ID: 13816
+# Current directory: D:/malygit/Digital-electronics-1/Labs/de1_projekt/project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18028 D:\malygit\Digital-electronics-1\Labs\de1_projekt\project\project.xpr
+# Log file: D:/malygit/Digital-electronics-1/Labs/de1_projekt/project/vivado.log
+# Journal file: D:/malygit/Digital-electronics-1/Labs/de1_projekt/project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/malygit/Digital-electronics-1/Labs/de1_projekt/project/project.xpr
+update_compile_order -fileset sources_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+close_design
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top tb_LED_bargraph [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top LED_bargraph [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+launch_simulation
+source tb_LED_bargraph.tcl
+relaunch_sim
+relaunch_sim
+relaunch_sim
+close_sim
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top state_machine [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top tb_state_machine [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+launch_simulation
+source tb_state_machine.tcl
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+close_sim
+launch_simulation
+source tb_state_machine.tcl
+close_sim
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top tb_top [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top top [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+launch_simulation
+source tb_top.tcl
+relaunch_sim
+close_sim
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+launch_simulation
+launch_simulation
+source tb_top.tcl
+close_sim
+file copy -force D:/malygit/Digital-electronics-1/Labs/de1_projekt/project/project.runs/impl_1/top.bit D:/malygit/Digital-electronics-1/Labs/de1_projekt/project/bitstream_de1projekt.bit

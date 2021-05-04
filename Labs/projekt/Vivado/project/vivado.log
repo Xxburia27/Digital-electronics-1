@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue May  4 22:26:35 2021
+# Process ID: 12616
+# Current directory: C:/Users/radek/Vivado/de1_projekt/de1_projekt/project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12276 C:\Users\radek\Vivado\de1_projekt\de1_projekt\project\project.xpr
+# Log file: C:/Users/radek/Vivado/de1_projekt/de1_projekt/project/vivado.log
+# Journal file: C:/Users/radek/Vivado/de1_projekt/de1_projekt/project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/radek/Vivado/de1_projekt/de1_projekt/project/project.xpr
+WARNING: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/radek/Vivado/de1_projekt/de1_projekt/project/project.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Zabava/Programy/Xilinx/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:22 ; elapsed = 00:00:09 . Memory (MB): peak = 1018.074 ; gain = 0.000
+update_compile_order -fileset sources_1
+reset_simulation
+INFO: [Vivado 12-2266] Removing simulation data...
+INFO: [Vivado 12-2267] Reset complete
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue May  4 22:29:12 2021...
